@@ -20,7 +20,7 @@ title                    : "S.Cho.lar"
 title_separator          : "-"
 subtitle                 : "S.Cho's Tech Blog" # site tagline that appears below site title in masthead
 name                     : "Songhee Cho"
-description              : "Web description"
+description              : "It's a blog where Songhee archives her various experiences about EEE, Computer Vision, or ML etc."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
