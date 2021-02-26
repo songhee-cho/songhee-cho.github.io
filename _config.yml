@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "ko"
-title                    : "S.Cho's Tech Blog"
+title                    : "S.Cho Tech"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "S.Cho's Tech Blog" # site tagline that appears below site title in masthead
 name                     : "Songhee Cho"
 description              : "Web description"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
