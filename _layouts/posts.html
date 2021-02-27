@@ -29,3 +29,8 @@ layout: archive
   </section>
 {% endfor %}
 
+comments: true
+    {% if page.comments != false %}
+	    {% include disqus_comments.html %}
+    {% endif %}  
+
