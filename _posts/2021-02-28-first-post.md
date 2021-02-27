@@ -1,9 +1,9 @@
 ---
 layout: posts
 title: "Hello, World! It's My First Post"
-date: 2021-02-28 03:20:00 -0400
-categories: introduction
-tags: announcements update
+date: 2021-02-28 04:10:00 -0400
+categories: [introduction]
+tags: [announcements update]
 ---
 
 Hi, guys. It's My Fisrt Post. I'm S.Cho, a senior student majoring in **electronic and electrical engineering** in Seoul, Korea.
