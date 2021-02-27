@@ -1,4 +1,0 @@
----
-name: announcements
-title: announcements
----
