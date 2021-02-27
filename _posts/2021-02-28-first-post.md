@@ -13,7 +13,7 @@ Hi, guys. It's My Fisrt Post. I'm S.Cho, a senior student majoring in **electron
 
 Welcome to my tech blog S.CHO.LAR. 😊
 
-I'm interested in computer vision and ML, recently, absorbed in image or signal processing that can be applied to military tech and digital heritage.
+I'm interested in computer vision, ML, and image/signal processing that can be applied to military tech and digital heritage.
 
 However, this blog is not limited to above-mentioned topics. I'm still an undergraduate, so fully open-minded to find my future research fields.
 
