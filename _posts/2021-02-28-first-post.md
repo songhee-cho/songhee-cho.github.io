@@ -8,8 +8,6 @@ tags:
 - announcements 
 - updates
 ---
-안녕하세요.
-
 Hi, guys. It's My Fisrt Post. I'm S.Cho, a senior student majoring in **electronic and electrical engineering** in Seoul, Korea.
 
 Welcome to my tech blog S.CHO.LAR. 😊
