@@ -2,6 +2,7 @@
 layout: posts
 title: "Hello, World! It's My First Post"
 date: 2021-02-28 04:10:00 -0400
+comments: true
 categories: 
 - introductions
 tags: 
