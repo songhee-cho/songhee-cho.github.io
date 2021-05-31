@@ -40,6 +40,9 @@ classes = ('plane', 'car', 'bird', 'cat',
            'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 ```
 
+![image](https://github.com/songhee-cho/songhee-cho.github.io/blob/master/assets/img/img-classification/img_classification_1.PNG)
+
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -63,6 +66,9 @@ imshow(torchvision.utils.make_grid(images))
 # print labels
 print(' '.join('%5s' % classes[labels[j]] for j in range(batch_size)))
 ```
+
+![image](https://github.com/songhee-cho/songhee-cho.github.io/blob/master/assets/img/img-classification/img_classification_2.PNG)
+
 
 ### **2. Define a convolutional neural network**
 
@@ -133,6 +139,9 @@ for epoch in range(2):  # loop over the dataset multiple times
 print('Finished Training')
 ```
 
+![image](https://github.com/songhee-cho/songhee-cho.github.io/blob/master/assets/img/img-classification/img_classification_3.PNG)
+
+
 ```python
 PATH = './cifar_net.pth'
 torch.save(net.state_dict(), PATH)
@@ -150,10 +159,16 @@ imshow(torchvision.utils.make_grid(images))
 print('GroundTruth: ', ' '.join('%5s' % classes[labels[j]] for j in range(4)))
 ```
 
+![image](https://github.com/songhee-cho/songhee-cho.github.io/blob/master/assets/img/img-classification/img_classification_4.PNG)
+
+
 ```python
 net = Net()
 net.load_state_dict(torch.load(PATH))
 ```
+
+![image](https://github.com/songhee-cho/songhee-cho.github.io/blob/master/assets/img/img-classification/img_classification_5.PNG)
+
 
 ```python
 outputs = net(images)
@@ -165,6 +180,9 @@ _, predicted = torch.max(outputs, 1)
 print('Predicted: ', ' '.join('%5s' % classes[predicted[j]]
                               for j in range(4)))
 ```
+
+![image](https://github.com/songhee-cho/songhee-cho.github.io/blob/master/assets/img/img-classification/img_classification_6.PNG)
+
 
 ```python
 correct = 0
@@ -183,6 +201,9 @@ with torch.no_grad():
 print('Accuracy of the network on the 10000 test images: %d %%' % (
     100 * correct / total))
 ```
+
+![image](https://github.com/songhee-cho/songhee-cho.github.io/blob/master/assets/img/img-classification/img_classification_7.PNG)
+
 
 ```python
 # prepare to count predictions for each class
@@ -208,6 +229,9 @@ for classname, correct_count in correct_pred.items():
     print("Accuracy for class {:5s} is: {:.1f} %".format(classname,
                                                    accuracy))
 ```
+
+![image](https://github.com/songhee-cho/songhee-cho.github.io/blob/master/assets/img/img-classification/img_classification_8.PNG)
+
 
 ### **6. Training on GPU**
 
