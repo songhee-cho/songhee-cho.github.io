@@ -1,5 +1,17 @@
+---
+layout: posts
+title: "PyTorch Example: Image Classification"
+excerpt: "Let's study image classification using pytorch example!"
+comments: true
+categories: 
+- pytorch
+tags: 
+- pytorch
+- euron
+---
+
 ## **Training an Image Classifier🧙🖼️**
-****
+
 ### **1. Load and normalization CIFAR10**
 ```python
 import torch
