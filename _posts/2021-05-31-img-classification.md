@@ -40,7 +40,7 @@ classes = ('plane', 'car', 'bird', 'cat',
            'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 ```
 
-![image](assets/img/img-classification/img_classification_1.PNG)
+![image](/assets/img/img-classification/img_classification_1.PNG)
 
 
 ```python
