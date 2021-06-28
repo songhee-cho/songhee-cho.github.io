@@ -12,6 +12,8 @@ tags:
 - euron
 ---
 
+*This post still needs some updates!*
+
 ## Week 1
 - Week1 summary
 ### **1. Lecture's Agenda 🍐**
