@@ -36,8 +36,11 @@
               <tbody>
                 {% if content.institution %}
                   <tr>
-                    <td style="vertical-align: top; text-align: center" class="institution">
-                      <i class="fa-solid fa-building-columns iconinstitution"></i>
+			  <td style="vertical-align: top; text-align: center" class="institution">
+				  {% comment %}
+				  <i class="fa-solid fa-building-columns iconinstitution"></i>
+				  {% endcomment %}
+				  <i class="fa-solid fa-building"></i>
                     </td>
                     <td class="institution">{{ content.institution }}</td>
                   </tr>
@@ -45,12 +48,32 @@
                 {% if content.department %}
                   <tr>
                     <td style="vertical-align: top; text-align: center" class="department">
-                      <i class="fa-regular fa-circle-dot icondepartment"></i>
+			    {% comment %}
+			    <i class="fa-regular fa-circle-dot icondepartment"></i>
+			    {% endcomment %}
+			    <i class="fa-solid fa-highlighter"></i>
                     </td>
                     <td class="department">{{ content.department }}</td>
                   </tr>
                 {% endif %}
-              </tbody>
+                {% if content.paper%}
+                  <tr>
+                    <td style="vertical-align: top; text-align: center" class="paper">
+                      <i class="fa-solid fa-book icondepartment"></i>
+                    </td>
+                    <td class="paper">{{ content.paper}}</td>
+                  </tr>
+	  	{% endif %}
+                {% if content.data%}
+                  <tr>
+                    <td style="vertical-align: top; text-align: center" class="data">
+                      <i class="fa-solid fa-hourglass-start icondepartment"></i>
+                    </td>
+                    <td class="data">{{ content.paper}}</td>
+                  </tr>
+                {% endif %}
+
+	      </tbody>
             </table>
           {% endif %}
           {% if content.maindescription %}
