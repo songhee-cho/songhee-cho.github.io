@@ -18,7 +18,8 @@
   "work": [
     {
       "name": "Agency for Defense Development",
-      "position": "Researcher",      "location": "",
+      "position": "Researcher",      
+      "location": "",
       "startDate": "2024-10-01",
       "endDate": "",
       "summary": "Research on robust perception in real-world environments.",
