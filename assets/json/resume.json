@@ -28,7 +28,7 @@
     ]
   },
 
-  "Work": [
+  "work": [
     {
       "name": "Agency for Defense Development",
       "position": "Researcher",
@@ -57,7 +57,7 @@
     }
   ],
 
-  "Education": [
+  "education": [
     {
       "institution": "Ewha Womans University",
       "location": "Seoul, Republic of Korea",
@@ -80,7 +80,7 @@
     }
   ],
 
-  "Awards": [
+  "awards": [
     {
       "title": "Outstanding Research Award",
       "date": "2023-12-01",
@@ -89,7 +89,7 @@
     }
   ],
 
-  "Skills": [
+  "skills": [
     {
       "name": "Research Areas",
       "keywords": [
@@ -99,7 +99,7 @@
     }
   ],
 
-  "Languages": [
+  "languages": [
     {
       "language": "Korean",
       "fluency": "Native"
@@ -110,7 +110,7 @@
     }
   ],
 
-  "Projects": [
+  "projects": [
     {
       "name": "Master's Thesis",
       "startDate": "2022-09-01",
