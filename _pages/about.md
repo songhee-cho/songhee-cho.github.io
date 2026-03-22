@@ -30,7 +30,7 @@ announcements:
 
 I am Songhee Cho, currently a researcher at the [Agency for Defense Development](https://add.re.kr/), where I have been working since October 2024. I earned my Master’s degree in Electrical and Electronics Engineering from Ewha Womans University in August 2024, specializing in `radar signal processing` as a member of [Digital Signal Processing Lab](https://dspl.ewha.ac.kr/dspl/index.do) under the guidance of Professor [Jeongtae Kim](http://jtkim.ewha.ac.kr/).
 
-In 2020, I gained valuable research experience as an undergraduate researcher at the Artificial Intelligence and Robotics Institute of [KIST](https://kist.re.kr/eng/index.do), contributing to the [Robot Vision Lab](kistrobot.vision) under the supervision of Dr. KangGeon Kim.
+In 2020, I gained valuable research experience as an undergraduate researcher at the Artificial Intelligence and Robotics Institute of [KIST](https://kist.re.kr/eng/index.do), contributing to the [Robot Vision Lab](https://kistrobot.vision) under the supervision of Dr. KangGeon Kim.
 
 My research interests lie at the intersection of `radar signal processing` and `deep learning`, with a particular focus on integrating `multimodal data` from diverse sensor systems.
 
