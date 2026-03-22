@@ -4,6 +4,10 @@
 
 // Typography
 
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+}
+
 p,
 h1,
 h2,
@@ -18,9 +22,13 @@ span,
 // strong {
 //   color: var(--global-text-color);
 // }
+// strong {
+//   color: var(--global-text-color);
+//   font-family: "Lato", Verdana, Helvetica, sans-serif;
+// }
 strong {
   color: var(--global-text-color);
-  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
 }
 
 hr {

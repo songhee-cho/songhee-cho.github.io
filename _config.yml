@@ -17,7 +17,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🌐 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/globe_favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://songhee-cho.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -430,7 +430,8 @@ third_party_libraries:
   google_fonts:
     url:
       # fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
-      fonts: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Material+Icons&display=swap"
+      # fonts: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
