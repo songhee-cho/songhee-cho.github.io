@@ -15,8 +15,12 @@ em,
 div,
 li,
 span,
+// strong {
+//   color: var(--global-text-color);
+// }
 strong {
   color: var(--global-text-color);
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
 }
 
 hr {
