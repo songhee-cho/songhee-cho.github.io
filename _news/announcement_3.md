@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-My research on plant growth information measurement using AI published in Computers and Electronics in Agriculture!
+Our paper on **plant growth measurement using RGB-D fusion** has been published in *Computers and Electronics in Agriculture*.  
+[📎](https://doi.org/10.1016/j.compag.2023.107703)
